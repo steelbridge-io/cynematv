@@ -913,6 +913,36 @@ section.vc_section.sec-banenr-hdr {
 }
 
 /** Checkout */
+#check-out-template h3 {
+  color: #ffffff;
+}
+#check-out-template label {
+  color: #ffffff;
+}
+#check-out-template .woocommerce-checkout-review-order-table {
+  color: #ffffff;
+}
+#check-out-template #payment {
+  background-color: #000000;
+}
+#check-out-template .payment_box.payment_method_stripe {
+  background-color: #CC0000 !important;
+}
+#check-out-template p {
+  color: #ffffff !important;
+}
+#check-out-template #place_order.button {
+  background-color: #CC0000 !important;
+  color: #ffffff !important;
+}
+
+.woocommerce-checkout #payment div.payment_box::before {
+  border: 1em solid #CC0000 !important;
+  border-right-color: transparent !important;
+  border-left-color: transparent !important;
+  border-top-color: transparent !important;
+}
+
 .woocommerce-checkout #page {
   background-color: #000000;
 }
@@ -934,6 +964,62 @@ section.vc_section.sec-banenr-hdr {
   color: #ffffff;
   width: 500px;
   margin: 0 auto;
+}
+
+/** Single Product */
+#single-product-title h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+#single-product-title .price {
+  color: #CC0000;
+}
+
+#single-product-content #single-product-left-column .single_add_to_cart_button.button {
+  background-color: #CC0000;
+}
+#single-product-content #single-product-left-column .price {
+  color: #CC0000;
+  font-weight: bolder;
+}
+#single-product-content #single-product-right-column p {
+  color: #ffffff;
+}
+
+/** Cart */
+.woocommerce-message {
+  border: 3px solid #CC0000 !important;
+}
+
+.cart-empty.woocommerce-info {
+  border: 3px solid #CC0000 !important;
+}
+
+.button.wc-forward, .button.wc-backward {
+  background-color: #CC0000 !important;
+  color: #ffffff !important;
+  width: 30% !important;
+  text-align: center;
+}
+
+#custom-cart-template .cart {
+  color: #ffffff;
+}
+#custom-cart-template .cart_totals {
+  color: #ffffff;
+}
+#custom-cart-template .cart_totals h2 {
+  color: #ffffff;
+}
+#custom-cart-template .checkout-button.button {
+  background-color: #CC0000;
+  width: 100% !important;
+}
+#custom-cart-template .button.wc-backward {
+  background-color: #CC0000;
+  color: #ffffff;
+  width: 40%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=supports.css.map */
