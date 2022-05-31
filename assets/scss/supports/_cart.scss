@@ -1,5 +1,18 @@
 /** Cart */
 
+/* Removes cart Update Button */
+.cart {
+  tbody {
+    tr {
+      td.actions {
+        .button[name="update_cart"] {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 .woocommerce-message {
   border: 3px solid $red !important;
 }
